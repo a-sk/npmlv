@@ -2,7 +2,14 @@
 	"author": "Juraj Vitko (ypocat.com)",
 	"name": "npmlv",
 	"description": "List module versions in your project in format easy to copy and paste to your package.json.",
-	"keywords": [ "utility", "functions", "npm", "list", "module", "versions" ],
+	"keywords": [
+		"utility",
+		"functions",
+		"npm",
+		"list",
+		"module",
+		"versions"
+	],
 	"version": "0.0.3",
 	"homepage": "http://github.com/ypocat/npmlv",
 	"repository": {
@@ -20,11 +27,16 @@
 		"node": ">= 0.4.0"
 	},
 	"dependencies": {
-		"commander": "*"
+		"commander": "1.1.1",
+		"identify-indent": "0.1.0",
+		"pkginfo": "0.3.0",
+		"string": "1.3.0"
 	},
-	"devDependencies": {
-	},
+	"devDependencies": {},
 	"licenses": [
-		{  "type" : "MIT", "url" : "https://raw.github.com/ypocat/npmlv/master/LICENSE" }
+		{
+			"type": "MIT",
+			"url": "https://raw.github.com/ypocat/npmlv/master/LICENSE"
+		}
 	]
 }
