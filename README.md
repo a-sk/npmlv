@@ -70,3 +70,7 @@ Prints:
     "underscore": "*"
 }
 ```
+
+To update your package.json file:
+
+	npmlv -u
